@@ -10,20 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0' # O la versión que necesites
-
-      - name: Install Dependencies
-        run: |
-          gem install bundler
-          bundle install
+          bundler-cache: true # Instala dependencias y las guarda en caché
 
       - name: Build Jekyll Site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --baseurl ${{ github.repository_name }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
