@@ -22,8 +22,8 @@ title: Academia Matecaracha
 email: contacto@matecaracha.com
 description: >-
   Academia especializada en matemáticas con clases, retos y profesores expertos. ¡Descubre el poder de aprender con Matecaracha!
-baseurl: ""
-url: "https://matecaracha.com"
+baseurl: "/matecaracha"
+url: "https://matecaracha.github.io"
 twitter_username: matecaracha
 github_username: matecaracha
 
