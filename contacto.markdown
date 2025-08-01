@@ -9,11 +9,11 @@ title: "Contacto"
 </header>
 
 <nav>
-  <a href="/">Inicio</a>
-  <a href="/materias">Materias</a>
-  <a href="/profesores">Profesores</a>
-  <a href="/desafio">Desafío</a>
-  <a href="/contacto">Contacto</a>
+  <a href="https://feijoo230.github.io/matecaracha/">Inicio</a>
+  <a href="https://feijoo230.github.io/matecaracha/materias">Materias</a>
+  <a href="https://feijoo230.github.io/matecaracha/profesores">Profesores</a>
+  <a href="https://feijoo230.github.io/matecaracha/desafio">Desafío</a>
+  <a href="https://feijoo230.github.io/matecaracha/contacto">Contacto</a>
 </nav>
 
 <section>
